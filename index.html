@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="flex justify-center sm:mt-24  mt-40">
+        <h1 class="px-10 py-4 bg-teal-500 rounded-xl text-4xl font-bold text-slate-800 ">Digital clock</h1>
+    </div>
+    <div class="flex justify-center ">
+       
+    <div class="grid grid-cols-3 grid-rows-3 gap-5 text-center mt-10   ">
+            
+        <div class="grid grid-row-2  border h-40 sm:w-52 w-28 bg-slate-800 rounded-2xl ">
+            <span id="hour" class="mt-12 text-5xl font-bold text-white">00</span>
+            <span class="text-2xl font-bold text-red-600 mt-4 bg-teal-500 rounded-b-xl">Hour</span>
+        </div>
+
+
+        <div class="grid grid-row-2  border h-40 sm:w-52 w-28 bg-slate-800 rounded-2xl ">
+            <span id="minute" class="mt-12 text-5xl font-bold text-white">00</span>
+            <span class="text-2xl font-bold text-red-600 mt-4 bg-teal-500 rounded-b-xl">Minute</span>
+        </div>
+
+
+        <div class="grid grid-row-2  border h-40 sm:w-52 w-28 bg-slate-800 rounded-2xl ">
+            <span id="second" class="mt-12 text-5xl font-bold text-white">00</span>
+            <span class="text-2xl font-bold text-red-600 mt-4 bg-teal-500 rounded-b-xl">Second</span>
+        </div>
+        <div class="grid  h-14 w-70 col-span-3  bg-slate-800 rounded-xl ">
+            <span id="ampm" class="text-4xl font-bold text-white mt-2 ">AM</span>
+        </div>
+    </div>
+</div>
+    
+<script src="./script.js"></script>
+</body>
+</html>
