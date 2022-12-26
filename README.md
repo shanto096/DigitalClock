@@ -1,3 +1,3 @@
 # DigitalClock
 Digital Clock
-live link:  https://shanto096.github.io/DigitalClock/html
+live link:  https://shanto096.github.io/DigitalClock/
